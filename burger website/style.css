@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    font-family: Nunito;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-Regular.ttf);
+  }
+
+body {
+    background-color: #F9F9F9;
+}
+
+/*PC styles*/
+
+/*header*/
+
+header {
+    height: 466px;
+    background-color: #FFAB08;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%; 
+}
+
+#logo_container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    margin-top: 24px;
+}
+
+#header_content_container {
+    display: flex;
+    justify-content: center;
+}
+
+#header_content {
+    margin-top: 24px;
+    width: 784px;
+    height: 326px;
+    display: flex;
+}
+
+#header_text {
+    margin-left: 21px;
+    margin-top: 46px;
+}
+
+#header_text_1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+#header_text_2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #FF5C00;
+}
+
+#header_text_3 {
+    margin-top: 52px;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#header_price_text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*end of header*/
+
+/*navigation panel*/
+
+nav {
+    margin-left: 75px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.nav_buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #FFFFFF;
+    height: 40px;
+}
+
+.nav_buttons:hover {
+    outline: 1px solid #F86310;
+}
+
+.nav_icons {
+    margin-left: 14px;
+}
+
+.nav_button_text {
+    margin-left: 8px;
+    margin-right: 14px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#burger_nav {
+    background-color: #FFAB08;
+}
+
+/*end of navifation panel*/
+
+/*main block*/
+
+#meal_header {
+    margin-left: 405px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;    
+}
+
+#main_section {
+    margin-top: 24px;
+    margin-left: 75px;
+    display: flex;
+}
+
+
+/*shopping cart*/
+#shopping_cart {
+    width: 300px;
+    height: 109px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+}
+
+#cart_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart_header_text {
+    margin-left: 16px;
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#cart_counter {
+    margin-right: 16px;
+    margin-top: 24px;
+    width: 41px;
+    height: 20px;
+    background-color: #F2F2F3;
+    border-radius: 6px;
+    align-items: center;
+    text-align: center;
+}
+
+#cart_items {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#empty_placeholder {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*end of shopping cart*/
+
+/*menu*/
+
+#menu_section {
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.meal_card {
+    height: 411px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+}
+
+/*end of menu*/
+
+/*end of main block*/
+
+/*End of PC styles*/

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!--logo-->
+        <div id="logo_container">
+            <img id="logo" src="images/logo.png" alt="">
+        </div> 
+        
+        <!--header content-->
+        <div id="header_content_container">
+            <div id="header_content">
+                <img src="images/burger_logo.png" alt="">
+                <div id="header_text">
+                    <p id="header_text_1">Только самые</p>
+                    <p id="header_text_2">сочные бургеры!</p>
+                    <p id="header_text_3">Бесплатная доставка от <span id="header_price_text">599₽</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--navigation panel-->
+    <nav>
+        <button class="nav_buttons" id="burger_nav" onclick="burger_nav()">
+            <img class="nav_icons" src="images/nav_icons/cheeseburger.png" alt="">
+            <p class="nav_button_text">Бургеры</p>
+        </button>
+
+        <button class="nav_buttons" id="snaks_nav" onclick="snaks_nav()">
+            <img class="nav_icons" src="images/nav_icons/snaks.png" alt="">
+            <p class="nav_button_text">Закуски</p>
+        </button>
+
+        <button class="nav_buttons" id="hot_dogs_nav" onclick="hot_dogs_nav()">
+            <img class="nav_icons" src="images/nav_icons/hot_dogs.png" alt="">
+            <p class="nav_button_text">Хот<span>-</span>доги</p>
+        </button>
+
+        <button class="nav_buttons" id="combo_nav" onclick="combo_nav()">
+            <img class="nav_icons" src="images/nav_icons/combo.png" alt="">
+            <p class="nav_button_text">Комбо</p>
+        </button>
+
+        <button class="nav_buttons" id="shawerma_nav" onclick="shawerma_nav()">
+            <img class="nav_icons" src="images/nav_icons/shawerma.png" alt="">
+            <p class="nav_button_text">Шаурма</p>
+        </button>
+
+        <button class="nav_buttons" id="pizza_nav" onclick="pizza_nav()">
+            <img class="nav_icons" src="images/nav_icons/pizza.png" alt="">
+            <p class="nav_button_text">Пицца</p>
+        </button>
+
+        <button class="nav_buttons" id="wok_nav" onclick="wok_nav()">
+            <img class="nav_icons" src="images/nav_icons/wok.png" alt="">
+            <p class="nav_button_text">Вок</p>
+        </button>
+
+        <button class="nav_buttons" id="desesrts_nav" onclick="desesrts_nav()">
+            <img class="nav_icons" src="images/nav_icons/desesrts.png" alt="">
+            <p class="nav_button_text">Десерты</p>
+        </button>
+
+        <button class="nav_buttons" id="sauces_nav" onclick="sauces_nav()">
+            <img class="nav_icons" src="images/nav_icons/sauces.png" alt="">
+            <p class="nav_button_text">Соусы</p>
+        </button>
+    </nav>
+
+    <!--main block-->
+    <p id="meal_header">Бургеры</p>
+
+    <div id="main_section">
+        <!--Shopping cart-->
+        <div id="shopping_cart">
+            <div id="cart_header">
+                <p id="cart_header_text">Корзина</p>
+                <div id="cart_counter">
+                    <p id="counter_number">0</p>
+                </div>
+            </div>
+            <div id="cart_items">
+                <p id="cart_placeholder">Тут пока пусто :(</p>
+            </div>
+        </div>
+
+        <!--menu-->
+        <div id="menu_section">
+            <div id="first_card" class="meal_card">
+            </div>
+            <div id="second_card" class="meal_card">
+            </div>
+            <div id="third_card" class="meal_card"></div>
+            <div id="fourth_card" class="meal_card"></div>
+            <div id="fifth_card" class="meal_card"></div>
+            <div id="sixth_card" class="meal_card"></div>
+        </div>
+        <!---->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br>
+    <script src="scipt.js"></script>
+</body>
+</html>
